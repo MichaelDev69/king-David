@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>THE KING DAVID SCHOOL-ELDORET</title>
+  <style>
+    /* Global styles */
+    body { font-family: "Segoe UI", Arial, sans-serif; margin: 0; padding: 0; line-height: 1.6; }
+    h1, h2, h3 { margin-top: 0; }
+
+    /* Header */
+    header {
+      background: linear-gradient(45deg, #0066cc, #00cc99);
+      color: white; padding: 40px; text-align: center;
+    }
+    header h1 { font-size: 40px; margin-bottom: 10px; }
+    header p { font-size: 20px; font-style: italic; }
+
+    /* Navigation */
+    nav {
+      background: #004080; padding: 15px; text-align: center;
+    }
+    nav a {
+      color: white; margin: 0 20px; text-decoration: none; font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover { color: #ffcc00; }
+
+    /* Sections */
+    section { padding: 50px 20px; }
+    #about { background: #f9f9f9; }
+    #teachers { background: #e6f7ff; }
+    #students { background: #fff0f5; }
+    #events { background: #f0fff0; }
+    #contact { background: #fdf6e3; }
+
+    h2 { color: #004080; margin-bottom: 20px; }
+
+    /* Card styles */
+    .teachers, .students {
+      display: flex; gap: 20px; flex-wrap: wrap; justify-content: center;
+    }
+    .card {
+      background: white; padding: 20px; border-radius: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      width: 250px; text-align: center; transition: transform 0.3s, box-shadow 0.3s;
+    }
+    .card:hover {
+      transform: translateY(-8px); box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+    }
+
+    /* Events list */
+    ul { list-style: none; padding: 0; }
+    ul li {
+      background: #fff; margin: 10px auto; padding: 15px;
+      border-left: 6px solid #00cc99; width: 70%; border-radius: 8px;
+      font-size: 18px; box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    /* Contact form */
+    form { display: flex; flex-direction: column; width: 350px; margin: auto; }
+    input, textarea {
+      padding: 12px; margin: 10px 0; border: 1px solid #ccc; border-radius: 8px;
+    }
+    button {
+      padding: 12px; background: #0066cc; color: white; font-size: 16px;
+      border: none; border-radius: 8px; transition: 0.3s;
+    }
+    button:hover { background: #004080; cursor: pointer; }
+
+    /* Footer */
+    footer {
+      background: linear-gradient(45deg, #00cc99, #0066cc);
+      color: white; text-align: center; padding: 20px; font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>THE KING DAVID SCHOOL-ELDORET</h1>
+    <p>"Foundation of excellence"</p>
+    <p>P.O.BOX 8135 ELDORET</p>
+  </header>
+
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#teachers">Teachers</a>
+    <a href="#students">Students</a>
+    <a href="#events">Events</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Our School</h2>
+    <p>Our school is a center of excellence in academics, discipline, and co-curricular activities. 
+       We nurture creativity, innovation, and leadership among students to prepare them for the future.</p>
+  </section>
+
+  <section id="teachers">
+    <h2>Our Teachers</h2>
+    <p>Our skilled teachers teach with love care and expertise making sure to provide <br> 
+      the best for our pupils</p>
+    <div class="teachers">
+      <div class="card">
+        <img src="ghhh.png" alt="">
+        <h3>Mr.Mark Mudogo</h3>
+        <p>Mathematics Teacher</p>
+      </div>
+      <div class="card">
+        <h3> Mr.Hezron Okoth</h3>
+        <p>Science Teacher</p>
+      </div>
+      <div class="card">
+        <h3>Mr. Robin Masaai</h3>
+        <p>History Teacher</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="students">
+    <h2>Students & Clubs</h2>
+    <p>our students take part in many co-curricular activities like sports <br>
+    creative performancesand innovations</p>
+    <div class="students">
+      <div class="card">
+        <h3>Drama Club</h3>
+        <p>Creative performances and plays.</p>
+        <img src="kikikki.png" alt="">
+      </div>
+      <div class="card">
+        <h3>Science Club</h3>
+        <p>Experiments & innovative projects.</p>
+        <img src="science club.png" alt="">
+      </div>
+      <div class="card">
+        <h3>Sports Team</h3>
+        <p>Football, athletics, and more.</p>
+        <img src="jik.png" alt="">
+      </div>
+    </div>
+  </section>
+  <section>
+    <div style="font-size: medium;">
+      <style>
+        h4{
+          font-size: larger;
+        }
+        h5{
+          font-size: larger;
+        }
+      </style>
+      <h4>Spiritual naturing </h4>
+      <p>The school together with the SDA church are making their best effort  <br>
+      to nurture the children spiritually and and interlectually</p>
+      <p>Our school pastor PST.Jochebe Rachael is doing her best we love her <br>
+      and respect her</p>
+      <img src="ghhh.png" alt="">
+    </div>
+  </section>
+  <section>
+    <div>
+      <h5>Transportation department</h5>
+      <p>Our school has a very well organised transport department <br> 
+        that ensure your kids are entertained and home safe</p>
+    </div>
+  </section>
+  <section id="events">
+    <h2>Upcoming Events</h2>
+    <ul>
+      <li>🎉 Cultural Day – Sept 15, 2025</li>
+      <li>⚽ Sports Day – Oct 10, 2025</li>
+      <li>🎓 Graduation Ceremony – Nov 25, 2025</li>
+    </ul>
+  </section>
+  <p>Join us in our jorney to succes 🎓</p>
+  <p>U can contact us by filling the form below</p>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+  <P>Our school is located in Eldoret the City of Champions <br>
+  near Racecourse Hospital along Mudavadi road </P>
+
+  <footer>
+    <p>&copy; 2025 king david school eldoret. All rights reserved.</p>
+  </footer>
+</body>
+</html>
